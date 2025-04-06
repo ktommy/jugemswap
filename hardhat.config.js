@@ -16,4 +16,9 @@ module.exports = {
       chainId: 56,
     },
   },
+  etherscan: {
+    apiKey: {
+      bsc: process.env.BSCSCAN_API_KEY,
+    },
+  }
 };
